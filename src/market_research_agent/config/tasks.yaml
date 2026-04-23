@@ -1,0 +1,32 @@
+user_research_task:
+  description: >
+    Conduct user research for {product}.
+    Identify the target student users, their characteristics, financial needs,
+    spending habits, pain points, and common usage scenarios.
+    Make sure the analysis is practical and relevant to the current market environment in {current_year}.
+  expected_output: >
+    A structured user research summary including target users, user personas,
+    main needs, spending habits, pain points, and common use cases.
+  agent: user_researcher
+
+competitor_analysis_task:
+  description: >
+    Conduct competitor analysis for {product}.
+    Identify the major competitors, summarise their key features, strengths, and weaknesses,
+    and identify possible market gaps and opportunities for differentiation in the student budgeting app market.
+  expected_output: >
+    A structured competitor analysis including major competitors, their key features,
+    strengths, weaknesses, and possible market opportunities.
+  agent: competitor_analyst
+
+final_report_task:
+  description: >
+    Review the user research and competitor analysis results for {product}.
+    Write a final market research report with clear sections:
+    user personas, competitor analysis, market opportunities, and final recommendations.
+    The report should be easy to read, well-structured, and suitable for business understanding.
+  expected_output: >
+    A complete market research report in markdown format without using code fences.
+  agent: report_writer
+
+# MODIFIED: replaced default demo tasks with user research, competitor analysis, and final report tasks
